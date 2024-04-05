@@ -37,6 +37,7 @@ modules:
       - kdeconnectd
       - kmousetool
       - krfb
+      - krfb-libs
       - nvtop
       - plasma-discover 
       - plasma-discover-flatpak
