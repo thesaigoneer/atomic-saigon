@@ -46,9 +46,13 @@ Since I already build some images and played around with the fundamentals, it wa
                          
 ## Current Quirks:
 
-7th of April, 2024:       *   At the moment of writing there is an issue with switching to the signed version of the image
-                          *   To enable flathub head into Discover and tick the appropriate box in Settings
+7th of April, 2024:       
 
+* At the moment of writing there is an issue with switching to the signed version of the image
+                          
+* To enable flathub head into Discover and tick the appropriate box in Settings
+
+* Memory usage seems to be pretty high (1.8Gb), but that's possibly due to background services. To be checked.
 
 ## Nota bene
 
