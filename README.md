@@ -35,17 +35,18 @@ Since I already build some images and played around with the fundamentals, it wa
                                                       - plasma-discover-notifier
                                                       - plasma-welcome
       
-       The rpm of Firefox has been removed; a flatpak of Floorp has been added so the user at least has a browser available out of the box.     
+       The rpm of Firefox has been removed; a flatpak of Floorp has been added so the user at least 
+       has a browser available out of the box.     
       
 ## WIP
 
-      * This is a work-in-progress, so expect some changes over time (although nothing fundamental). 
+* This is a work-in-progress, so expect some changes over time (although nothing fundamental). 
       
-      * At a certain moment i'd like to get rid of Discover altogether, but for now I've just disabled the nagging notifier
+* At a certain moment i'd like to get rid of Discover altogether, but for now I've just disabled the nagging notifier
                          
-## Current quirks:
+## Current Quirks:
 
-7th of April, 2024:       *   At the moment of writing this there is an issue with switching to the signed version of the image
+7th of April, 2024:       *   At the moment of writing there is an issue with switching to the signed version of the image
                           *   To enable flathub head into Discover and tick the appropriate box in Settings
 
 
