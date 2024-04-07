@@ -17,6 +17,16 @@ For more information i refer to their website at https://universal-blue.org/. Yo
 A specific part of their toolkit is the Tinkerers Guide to building your own images. That has now been spun-off to BlueBuild at https://blue-build.org/. It's a work in progress, but as they mention it is 'the easiest way to build your own desktop Linux images'.
 Since I already build some images and played around with the fundamentals, it was pretty easy for me to pick up again.
 
+      What has been added:
+      
+      - kde-print-manager
+      - krusader
+      - lsd
+      - mc
+      - micro
+      - neofetch
+
+
 ## Nota bene
 
 Feel free to use these builds and dots. I do not, however, offer or imply any form of support or ongoing maintenance. And of course, you use them entirely at your own risk. Have fun!
