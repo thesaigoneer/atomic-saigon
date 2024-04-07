@@ -5,8 +5,10 @@ This the setup for my customized Ublue-Kinoite image, using the BlueBuild toolki
 ## Idea
 
 Eventhough the Ublue project creates outstanding tooling, there is always something to wish for. 
-In 2022 I already made a number of adapted images, but that got shelved and discontinued after some time.
+In 2022 I already made a number of adapted images, but that got shelved and discontinued by me after some time.
+
 Now, with the availability of KDE Plasma 6, it is time to revive it and remake that slimmed down image.
+
 Stay tuned!
 
 ## What's in & What's out
@@ -17,14 +19,34 @@ For more information i refer to their website at https://universal-blue.org/. Yo
 A specific part of their toolkit is the Tinkerers Guide to building your own images. That has now been spun-off to BlueBuild at https://blue-build.org/. It's a work in progress, but as they mention it is 'the easiest way to build your own desktop Linux images'.
 Since I already build some images and played around with the fundamentals, it was pretty easy for me to pick up again.
 
-      What has been added:
+      What has been added:                        What has been removed:      
       
-      - kde-print-manager
-      - krusader
-      - lsd
-      - mc
-      - micro
-      - neofetch
+      - kde-print-manager                             - firefox
+      - krusader                                      - firefox-langpacks
+      - lsd                                           - kcharselect
+      - mc                                            - kfind
+      - micro                                         - kde-connect
+      - neofetch                                      - kde-connect-libs
+                                                      - kdeconnectd
+                                                      - kmousetool
+                                                      - krfb
+                                                      - krfb-libs
+                                                      - nvtop
+                                                      - plasma-discover-notifier
+                                                      - plasma-welcome
+      
+       The rpm of Firefox has been removed; a flatpak of Floorp has been added so the user at least has a browser available out of the box.     
+      
+## WIP
+
+      * This is a work-in-progress, so expect some changes over time (although nothing fundamental). 
+      
+      * At a certain moment i'd like to get rid of Discover altogether, but for now I've just disabled the nagging notifier
+                         
+## Current quirks:
+
+7th of April, 2024:       *   At the moment of writing this there is an issue with switching to the signed version of the image
+                          *   To enable flathub head into Discover and tick the appropriate box in Settings
 
 
 ## Nota bene
