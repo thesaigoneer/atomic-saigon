@@ -38,6 +38,27 @@ Since I already build some images and played around with the fundamentals, it wa
        The rpm of Firefox has been removed; a flatpak of Floorp has been added so the user 
        at least has a browser available out of the box.     
       
+## How do you get it?
+
+Start with any Fedora Atomic image and install it. Then follow these instructions:
+
+. Rebase to the unsigned variant of the base image by running the following commands:
+
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/thesaigoneer/atomic-saigon:latest
+
+Reboot:
+
+systemctl reboot
+
+Rebase to the signed variant of the image: 
+
+rpm-ostree rebase ostree-image-signed:docker://ghcr.io/thesaigoneer/atomic-saigon:latest
+
+Reboot:
+
+systemctl reboot
+
+
 ## WIP
 
 * This is a work-in-progress, so expect some changes over time (although nothing fundamental). 
@@ -46,13 +67,6 @@ Since I already build some images and played around with the fundamentals, it wa
                          
 ## Current Quirks:
 
-7th of April, 2024:       
-
-* At the moment of writing there is an issue with switching to the signed version of the image
-                          
-* To enable flathub head into Discover and tick the appropriate box in Settings
-
-* Memory usage seems to be pretty high (1.8Gb), but that's possibly due to background services. To be checked.
 
 ## Nota bene
 
