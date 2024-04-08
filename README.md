@@ -35,8 +35,8 @@ Since I already build some images and played around with the fundamentals, it wa
                                                       - plasma-discover-notifier
                                                       - plasma-welcome
       
-       The rpm of Firefox has been removed; a flatpak of Floorp has been added so the user at least 
-       has a browser available out of the box.     
+       The rpm of Firefox has been removed; a flatpak of Floorp has been added so the user 
+       at least has a browser available out of the box.     
       
 ## WIP
 
