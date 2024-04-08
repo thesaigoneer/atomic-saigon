@@ -1,7 +1,7 @@
 # image will be published to ghcr.io/<user>/<name>
-name: atomic-saigon
+name: atomic-kde-saigon
 # description will be included in the image's metadata
-description: The Saigoneer's Ublue-Kinoite spin
+description: the saigoneer's ublue-kinoite spin
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/kinoite-main
