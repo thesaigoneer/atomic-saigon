@@ -50,13 +50,13 @@ I've only included Krusader and KDE Print manager (I use those and they have not
 
 Start with any Fedora Atomic image and install it. Then follow these instructions:
 
-      Rebase to the unsigned variant of the base image by running the following commands:
+Rebase to the unsigned variant of the base image by running the following commands:
 
       rpm-ostree rebase ostree-unverified-registry:ghcr.io/thesaigoneer/atomic-kde-saigon:latest
 
       Reboot: systemctl reboot
 
-      Rebase to the signed variant of the image: 
+Rebase to the signed variant of the image: 
 
       rpm-ostree rebase ostree-image-signed:docker://ghcr.io/thesaigoneer/atomic-kde-saigon:latest
 
