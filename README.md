@@ -22,9 +22,11 @@ This image will deliver an atomic KDE Plasma 6 desktop, with all Ublue tooling a
 
 All tooling added by the Ublue project remains pristine. Suffice to say I don't run the DX (developers) or Nvidia images here; it is the 'standard' version of their and Fedora's Kinoite image that I'm adjusting here.
 
-KDE has done an extensive job to make most applications available through a flatpak as well. So, no need to include Gwenview, Okular or Elisa etc. etc. in the image. 
+This means software like distrobox, Konsole, Dolphin, Spectacle and htop have already been included in the base image.
 
-I've only included Krusader and KDE Print manager (I use those and they have not (yet) been flatpak'ed). Plus some cli tools that i use. Can't live without my Midnight Commander!
+KDE has done an extensive job to make most other applications available through a flatpak as well, like Gnome did. So, no need to include Gwenview, Okular or Elisa etc. etc. in the image. 
+
+I've only included Krusader and KDE Print manager (I use those and they have not (yet) been flatpak'ed), plus some cli tools that i use. Can't live without my Midnight Commander!
 
 One flatpak is installed ootb; the Floorp browser is a cool project and it gives the end-user at least a browser upon startup.
 
