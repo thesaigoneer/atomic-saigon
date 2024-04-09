@@ -35,12 +35,12 @@ One flatpak is installed ootb; the Floorp browser is a cool project and it gives
       
       - fastfetch                                    - firefox (rpm)
       - fzf                                          - firefox-langpacks
-      - kde-gtk-config                               - kcharselect
-      - kde-print-manager                            - kfind  
-      - krusader                                     - kde-connect 
-      - lsd                                          - kde-connect-libs 
-      - mc                                           - kdeconnectd 
-      - micro                                        - kmousetool
+      - kde-print-manager                            - kcharselect
+      - krusader                                     - kfind  
+      - lsd                                          - kde-connect 
+      - mc                                           - kde-connect-libs 
+      - micro                                        - kdeconnectd 
+                                                     - kmousetool
                                                      - krfb 
                                                      - krfb-libs 
                                                      - nvtop 
