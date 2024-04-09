@@ -29,22 +29,23 @@ I've only included Krusader and KDE Print manager (I use those and they have not
 
       What has been added:                        What has been removed:      
       
-      - kde-print-manager                             - firefox
-      - krusader                                      - firefox-langpacks
-      - lsd                                           - kcharselect
-      - mc                                            - kfind
-      - micro                                         - kde-connect
-      - neofetch                                      - kde-connect-libs
-                                                      - kdeconnectd
-                                                      - kmousetool
-                                                      - krfb
-                                                      - krfb-libs
-                                                      - nvtop
-                                                      - plasma-discover-notifier
-                                                      - plasma-welcome
+      - fastfetch                                    - firefox
+      - fzf                                          - firefox-langpacks
+      - kde-print-manager                            - kcharselect 
+      - krusader                                     - kfind 
+      - lsd                                          - kde-connect 
+      - mc                                           - kde-connect-libs 
+      - micro                                        - kdeconnectd
+                                                     - kmousetool
+                                                     - krfb 
+                                                     - krfb-libs 
+                                                     - nvtop 
+                                                     - plasma-discover-notifier 
+                                                     - plasma-welcome  
+                                                      
       
-       The rpm of Firefox has been removed; a flatpak of Floorp has been added so the user 
-       at least has a browser available out of the box.     
+       The rpm of Firefox has been removed; a flatpak of Floorp has been added so 
+       the end-user at least has a browser available out of the box.     
       
 ## How do you get it?
 
