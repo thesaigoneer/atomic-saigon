@@ -20,16 +20,18 @@ This image will deliver an atomic KDE Plasma 6 desktop, with all Ublue tooling a
 
 ## What's in & What's out
 
-All tooling added by the Ublue project remains pristine. Suffice to say I don't run the DX (developers) or Nvidia images here; it is the 'standard' version of their (and Fedora's!) Kinoite image that I'm adjusting here.
+All tooling added by the Ublue project remains pristine. Suffice to say I don't run the DX (developers) or Nvidia images here; it is the 'standard' version of their and Fedora's Kinoite image that I'm adjusting here.
 
 KDE has done an extensive job to make most applications available through a flatpak as well. So, no need to include Gwenview, Okular or Elisa etc. etc. in the image. 
 
-I've only included Krusader and KDE Print manager (I use those and they have not (yet) been flatpak'ed).
+I've only included Krusader and KDE Print manager (I use those and they have not (yet) been flatpak'ed). Plus some cli tools that i use. Can't live without my Midnight Commander!
+
+One flatpak is installed ootb; the Floorp browser is a cool project and it gives the end-user at least a browser upon startup.
 
 
       What has been added:                        What has been removed:      
       
-      - fastfetch                                    - firefox
+      - fastfetch                                    - firefox (rpm)
       - fzf                                          - firefox-langpacks
       - kde-print-manager                            - kcharselect 
       - krusader                                     - kfind 
@@ -44,8 +46,6 @@ I've only included Krusader and KDE Print manager (I use those and they have not
                                                      - plasma-welcome  
                                                       
       
-       The rpm of Firefox has been removed; a flatpak of Floorp has been added so 
-       the end-user at least has a browser available out of the box.     
       
 ## How do you get it?
 
@@ -55,13 +55,13 @@ Rebase to the unsigned variant of the base image by running the following comman
 
       rpm-ostree rebase ostree-unverified-registry:ghcr.io/thesaigoneer/atomic-kde-saigon:latest
 
-Reboot: systemctl reboot
+* Reboot: systemctl reboot
 
 Rebase to the signed variant of the image: 
 
       rpm-ostree rebase ostree-image-signed:docker://ghcr.io/thesaigoneer/atomic-kde-saigon:latest
 
-Reboot: systemctl reboot
+* Reboot: systemctl reboot
 
 Login to your new KDE Plasma Atomic!
 
@@ -77,4 +77,8 @@ None
 
 ## Nota bene
 
-Feel free to use these builds and dots. I do not, however, offer or imply any form of support or ongoing maintenance. And of course, you use them entirely at your own risk. Have fun!
+Feel free to use these builds and dots. I do not, however, offer or imply any form of support or ongoing maintenance. 
+
+And of course, you use them entirely at your own risk. 
+
+Have fun!
