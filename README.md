@@ -65,7 +65,7 @@ Rebase to the signed variant of the image:
 
 * Reboot: systemctl reboot
 
-Login to your new KDE Plasma Atomic!
+Login to your new KDE Plasma Atomic from Saigon!
 
 ## WIP
 
