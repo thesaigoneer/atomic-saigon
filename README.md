@@ -54,13 +54,13 @@ Rebase to the unsigned variant of the base image by running the following comman
 
       rpm-ostree rebase ostree-unverified-registry:ghcr.io/thesaigoneer/atomic-kde-saigon:latest
 
-      Reboot: systemctl reboot
+Reboot: systemctl reboot
 
 Rebase to the signed variant of the image: 
 
       rpm-ostree rebase ostree-image-signed:docker://ghcr.io/thesaigoneer/atomic-kde-saigon:latest
 
-      Reboot: systemctl reboot
+Reboot: systemctl reboot
 
 Login to your new KDE Plasma Atomic!
 
