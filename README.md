@@ -72,6 +72,7 @@ Login to your new KDE Plasma Atomic!
                          
 ## Current Quirks:
 
+None
 
 ## Nota bene
 
