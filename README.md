@@ -26,7 +26,7 @@ This means software like distrobox, Konsole, Dolphin, Spectacle, firewalld and h
 
 KDE has done an extensive job to make most other applications available through a flatpak as well, like Gnome did. So, no need to include Gwenview, Okular or Elisa etc. etc. in the image. 
 
-I've only included Krusader, KDE Print manager and KDE-GTK-config (I use those and they have not (yet) been flatpak'ed), plus some cli tools that i use. Can't live without my Midnight Commander!
+I've only included Krusader and KDE Print manager (I use those and they have not (yet) been flatpak'ed), plus some cli tools that i use. Can't live without my Midnight Commander!
 
 One flatpak is installed ootb; the Floorp browser is a cool project and it gives the end-user at least a browser upon startup.
 
