@@ -22,7 +22,7 @@ This image will deliver an atomic KDE Plasma 6 desktop, with all Ublue tooling a
 
 All tooling added by the Ublue project remains pristine. Suffice to say I don't run the DX (developers) or Nvidia images here; it is the 'standard' version of their and Fedora's Kinoite image that I'm adjusting here.
 
-This means software like distrobox, Konsole, Dolphin, Spectacle, firewalld and htop have already been included in the base image.
+This means software like distrobox, fzf, Konsole, Dolphin, Spectacle, firewalld, Vim and htop have already been included in the base image.
 
 KDE has done an extensive job to make most other applications available through a flatpak as well, like Gnome did. So, no need to include Gwenview, Okular or Elisa etc. etc. in the image. 
 
@@ -34,12 +34,12 @@ One flatpak is installed ootb; the Floorp browser is a cool project and it gives
       What has been added:                        What has been removed:      
       
       - fastfetch                                    - firefox (rpm)
-      - fzf                                          - firefox-langpacks
-      - kde-print-manager                            - kcharselect
-      - krusader                                     - kfind  
-      - lsd                                          - kde-connect 
-      - mc                                           - kde-connect-libs 
-      - micro                                        - kdeconnectd 
+      - kde-print-manager                            - firefox-langpacks
+      - krusader                                     - kcharselect
+      - lsd                                          - kfind  
+      - mc                                           - kde-connect 
+      - micro                                        - kde-connect-libs 
+                                                     - kdeconnectd 
                                                      - kmousetool
                                                      - krfb 
                                                      - krfb-libs 
