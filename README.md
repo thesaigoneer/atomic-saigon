@@ -30,7 +30,7 @@ I've only included Krusader and KDE Print manager (I use those and they have not
 
 One flatpak is installed ootb; the Floorp browser is a cool project and it gives the end-user at least a browser upon startup.
 
-Special mention to the Noto fonts, included by KDE. I have removed a ton of them in the image. Separate install and layering brings them back if you need them.
+Special mention to the Noto fonts, included by KDE. I have removed a ton of them from the image. A separate install and layering brings them back should you need them.
 
 
       What has been added:              What has been removed:            Also removed:
