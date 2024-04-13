@@ -34,7 +34,7 @@ modules:
     remove:
       - firefox
       - firefox-langpacks
-      - google-noto-fonts
+      - google-noto-sans-fonts
       - kcharselect
       - kfind
       - kde-connect
