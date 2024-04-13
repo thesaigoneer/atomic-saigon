@@ -21,7 +21,6 @@ modules:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
       - fastfetch
-      - google-roboto-fonts
       - kde-print-manager
       - krusader
       - lsd
@@ -36,6 +35,34 @@ modules:
       - firefox-langpacks
       - google-noto-serif-fonts
       - google-noto-sans-cjk-fonts
+      - google-noto-sans-mono-fonts
+      - google-noto-sans-mono-cjk-fonts
+      - google-noto-naskh-arabic-fonts
+      - google-noto-sans-arabic-fonts
+      - google-noto-sans-armenian-fonts
+      - google-noto-sans-balinese-fonts
+      - google-noto-sans-bengali-fonts
+      - google-noto-sans-canadian-aboriginal-fonts
+      - google-noto-sans-cherokee-fonts
+      - google-noto-sans-devanagari-fonts
+      - google-noto-sans-ethiopian-fonts
+      - google-noto-sans-georgian-fonts
+      - google-noto-sans-gujarati-fonts
+      - google-noto-sans-gurmukhi-fonts
+      - google-noto-sans-hebrew-fonts
+      - google-noto-sans-javanese-fonts
+      - google-noto-sans-kannada-fonts
+      - google-noto-sans-khmer-fonts
+      - google-noto-sans-lao-fonts
+      - google-noto-sans-meetei-mayek-fonts
+      - google-noto-sans-ol-chiki-fonts
+      - google-noto-sans-oriya-fonts
+      - google-noto-sans-sinhala-fonts
+      - google-noto-sans-sundanese-fonts
+      - google-noto-sans-tamil-fonts
+      - google-noto-sans-telugu-fonts
+      - google-noto-sans-thaana-fonts
+      - google-noto-sans-thai-fonts
       - kcharselect
       - kfind
       - kde-connect
