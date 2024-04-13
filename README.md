@@ -36,11 +36,11 @@ Special mention to the Noto fonts, included by KDE. I have removed a ton of them
       What has been added:         What has been removed:          Also removed:
       
       - fastfetch                  - firefox (rpm)                 - google-noto-serif-fonts
-      - kde-print-manager          - firefox-langpacks             - google-noto-sans-cjk-fonts
-      - krusader                   - kcharselect                   - google-noto-sans-mono-fonts
-      - lsd                        - kfind                         - google-noto-sans-mono-cjk-fonts
-      - mc                         - kde-connect 
-      - micro                      - kde-connect-libs 
+      - kde-print-manager          - firefox-langpacks             - google-noto-sans & serif fonts: cjk/mono/mono-cjk/
+      - krusader                   - kcharselect                     nashk-arabic/armenian/balinese/bengali/cherokee-canadian/
+      - lsd                        - kfind                           devanagari/ethiopian/georgian/gujurati/gurmukhi/hebrew/
+      - mc                         - kde-connect                     javanese/kannada/khmer/lao/meetei-mayek/ol-chiki/oriya/
+      - micro                      - kde-connect-libs                sinhala/sundanese/tamil/telugu/thaana/thai
                                    - kdeconnectd 
                                    - kmousetool
                                    - krfb 
