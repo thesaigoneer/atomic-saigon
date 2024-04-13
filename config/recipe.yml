@@ -34,35 +34,38 @@ modules:
       - firefox
       - firefox-langpacks
       - google-noto-serif-fonts
+      - google-noto-serif-vf-fonts
       - google-noto-sans-cjk-fonts
+      - google-noto-sans-cjk-vf-fonts
       - google-noto-sans-mono-fonts
-      - google-noto-sans-mono-cjk-fonts
+      - google-noto-sans-mono-vf-fonts
+      - google-noto-sans-mono-cjk-vf-fonts
       - google-noto-naskh-arabic-vf-fonts
-      - google-noto-sans-arabic-fonts
-      - google-noto-sans-armenian-fonts
+      - google-noto-sans-arabic-vf-fonts
+      - google-noto-sans-armenian-vf-fonts
       - google-noto-sans-balinese-fonts
-      - google-noto-sans-bengali-fonts
-      - google-noto-sans-canadian-aboriginal-fonts
-      - google-noto-sans-cherokee-fonts
-      - google-noto-sans-devanagari-fonts
-      - google-noto-sans-ethiopian-fonts
-      - google-noto-sans-georgian-fonts
-      - google-noto-sans-gujarati-fonts
-      - google-noto-sans-gurmukhi-fonts
-      - google-noto-sans-hebrew-fonts
+      - google-noto-sans-bengali-vf-fonts
+      - google-noto-sans-canadian-aboriginal-vf-fonts
+      - google-noto-sans-cherokee-vf-fonts
+      - google-noto-sans-devanagari-vf-fonts
+      - google-noto-sans-ethiopian-vf-fonts
+      - google-noto-sans-georgian-vf-fonts
+      - google-noto-sans-gujarati-vf-fonts
+      - google-noto-sans-gurmukhi-vf-fonts
+      - google-noto-sans-hebrew-vf-fonts
       - google-noto-sans-javanese-fonts
-      - google-noto-sans-kannada-fonts
-      - google-noto-sans-khmer-fonts
-      - google-noto-sans-lao-fonts
-      - google-noto-sans-meetei-mayek-fonts
-      - google-noto-sans-ol-chiki-fonts
-      - google-noto-sans-oriya-fonts
-      - google-noto-sans-sinhala-fonts
-      - google-noto-sans-sundanese-fonts
-      - google-noto-sans-tamil-fonts
-      - google-noto-sans-telugu-fonts
-      - google-noto-sans-thaana-fonts
-      - google-noto-sans-thai-fonts
+      - google-noto-sans-kannada-vf-fonts
+      - google-noto-sans-khmer-vf-fonts
+      - google-noto-sans-lao-vf-fonts
+      - google-noto-sans-meetei-mayek-vf-fonts
+      - google-noto-sans-ol-chiki-vf-fonts
+      - google-noto-sans-oriya-vf-fonts
+      - google-noto-sans-sinhala-vf-fonts
+      - google-noto-sans-sundanese-vf-fonts
+      - google-noto-sans-tamil-vf-fonts
+      - google-noto-sans-telugu-vf-fonts
+      - google-noto-sans-thaana-vf-fonts
+      - google-noto-sans-thai-vf-fonts
       - kcharselect
       - kfind
       - kde-connect
