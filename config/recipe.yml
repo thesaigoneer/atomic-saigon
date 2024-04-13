@@ -47,7 +47,7 @@ modules:
       - google-noto-sans-canadian-aboriginal-vf-fonts
       - google-noto-sans-cherokee-vf-fonts
       - google-noto-sans-devanagari-vf-fonts
-      - google-noto-sans-ethiopian-vf-fonts
+      - google-noto-sans-ethiopic-vf-fonts
       - google-noto-sans-georgian-vf-fonts
       - google-noto-sans-gujarati-vf-fonts
       - google-noto-sans-gurmukhi-vf-fonts
