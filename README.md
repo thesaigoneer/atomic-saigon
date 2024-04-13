@@ -30,25 +30,26 @@ I've only included Krusader and KDE Print manager (I use those and they have not
 
 One flatpak is installed ootb; the Floorp browser is a cool project and it gives the end-user at least a browser upon startup.
 
+Special mention to the Noto fonts, included by KDE. I have removed a ton of them in the image. Separate install and layering brings them back if you need them.
 
-      What has been added:                        What has been removed:      
+
+      What has been added:              What has been removed:            Also removed:
       
-      - fastfetch                                    - firefox (rpm)
-      - kde-print-manager                            - firefox-langpacks
-      - krusader                                     - kcharselect
-      - lsd                                          - kfind  
-      - mc                                           - kde-connect 
-      - micro                                        - kde-connect-libs 
-                                                     - kdeconnectd 
-                                                     - kmousetool
-                                                     - krfb 
-                                                     - krfb-libs 
-                                                     - nvtop 
-                                                     - plasma-discover-notifier 
-                                                     - plasma-welcome 
-                                                      
-                                                      
-      
+      - fastfetch                       - firefox (rpm)                   - google-noto-serif-fonts
+      - kde-print-manager               - firefox-langpacks               - google-noto-sans-cjk-fonts
+      - krusader                        - kcharselect                     - google-noto-sans-mono-fonts
+      - lsd                             - kfind                           - google-noto-sans-mono-cjk-fonts
+      - mc                              - kde-connect 
+      - micro                           - kde-connect-libs 
+      - google-roboto-fonts             - kdeconnectd 
+                                        - kmousetool
+                                        - krfb 
+                                        - krfb-libs 
+                                        - nvtop 
+                                        - plasma-discover-notifier 
+                                        - plasma-welcome 
+                                               
+    
       
 ## How do you get it?
 
