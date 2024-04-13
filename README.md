@@ -30,17 +30,15 @@ I've only included Krusader and KDE Print manager (I use those and they have not
 
 One flatpak is installed ootb; the Floorp browser is a cool project and it gives the end-user at least a browser upon startup.
 
-Special mention to the Noto fonts, included by KDE. I have removed a ton of them from the image. A separate install and layering brings them back should you need them.
-
 
       What has been added:         What has been removed:          Also removed:
       
       - fastfetch                  - firefox (rpm)                 - google-noto-serif-fonts
-      - kde-print-manager          - firefox-langpacks             - google-noto-sans & serif fonts: cjk/mono/mono-cjk/
-      - krusader                   - kcharselect                     nashk-arabic/armenian/balinese/bengali/cherokee-canadian/
-      - lsd                        - kfind                           devanagari/ethiopian/georgian/gujurati/gurmukhi/hebrew/
-      - mc                         - kde-connect                     javanese/kannada/khmer/lao/meetei-mayek/ol-chiki/oriya/
-      - micro                      - kde-connect-libs                sinhala/sundanese/tamil/telugu/thaana/thai
+      - kde-print-manager          - firefox-langpacks             - google-noto-sans-cjk-fonts
+      - krusader                   - kcharselect                     
+      - lsd                        - kfind                           
+      - mc                         - kde-connect                     
+      - micro                      - kde-connect-libs                
                                    - kdeconnectd 
                                    - kmousetool
                                    - krfb 
