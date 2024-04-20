@@ -26,9 +26,6 @@ modules:
       - lsd
       - mc
       - micro
-      - plasma-discover 
-      - plasma-discover-flatpak
-      - plasma-discover-libs
       
     remove:
       - firefox
