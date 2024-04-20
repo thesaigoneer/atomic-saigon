@@ -72,7 +72,7 @@ Login to your new KDE Plasma Atomic from Saigon!
       
 * At a certain moment i'd like to get rid of Discover altogether, but for now I've just disabled the nagging notifier
 
-20-04-2024: I have reinstated KDEConnect in my image; there is no flatpak for it and it looks like a pretty cool tool
+- 20-04-2024: I have reinstated KDEConnect in my image; there is no flatpak for it and it looks like a pretty cool tool
                          
 ## Current Quirks:
 
