@@ -33,7 +33,7 @@ modules:
       - google-noto-serif-fonts
       - google-noto-sans-cjk-fonts
       - kcharselect
-      - kdeconnect
+      - kde-connect
       - kdeconnectd
       - kfind
       - kmousetool
