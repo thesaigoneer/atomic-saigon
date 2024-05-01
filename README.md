@@ -1,6 +1,6 @@
 # Atomic-KDE-Saigon &nbsp; [![build-ublue](https://github.com/blue-build/template/actions/workflows/build.yml/badge.svg)](https://github.com/blue-build/template/actions/workflows/build.yml)
 
-This the setup for my customized ublue-kinoite image, using the BlueBuild toolkit, based on Fedora Kinoite 40.
+This is the setup of my customized ublue-kinoite image, using the BlueBuild toolkit, based on Fedora Kinoite 40.
 
 For more information i refer to their website at https://universal-blue.org/. You can find a large number of other specific images there as well.
 
