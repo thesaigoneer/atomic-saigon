@@ -28,7 +28,7 @@ KDE has done an extensive job to make most other applications available through 
 
 I've only included Krusader and KDE Print manager (I use those and they have not (yet) been flatpak'ed), plus some cli tools that i use. Can't live without my Midnight Commander!
 
-One flatpak is installed ootb; the Floorp browser is a cool project and it gives the end-user at least a browser upon startup.
+One flatpak is installed ootb; Firefox is included.
 
 
       What has been added:         What has been removed:          Also removed:
@@ -43,7 +43,7 @@ One flatpak is installed ootb; the Floorp browser is a cool project and it gives
                                    - nvtop 
                                    - plasma-discover-notifier 
                                    - plasma-welcome
-                            
+                                   - kdeconnect
               
                                    
     
@@ -72,7 +72,6 @@ Login to your new KDE Plasma Atomic from Saigon!
       
 * At a certain moment i'd like to get rid of Discover altogether, but for now I've just disabled the nagging notifier
 
-- 20-04-2024: I have reinstated KDEConnect in my image; there is no flatpak for it and it looks like a pretty cool tool
                          
 ## Current Quirks:
 
