@@ -30,24 +30,25 @@ I've only included Krusader and KDE Print manager (I use those and they have not
 
 One flatpak is installed ootb; Firefox is included.
 
+With regards to flatpaks: I suggest to use the verified versions. That 'proves' the application you are installing has been provided by the official publisher. More and more applications are reaching that status.
+
 
       What has been added:         What has been removed:          Also removed:
       
       - fastfetch                  - firefox (rpm)                 - google-noto-serif-fonts
       - kde-print-manager          - firefox-langpacks             - google-noto-sans-cjk-fonts
       - krusader                   - kcharselect                     
-      - lsd                        - kfind                           
-      - mc                         - kmousetool
-      - micro                      - krfb
-                                   - krfb-libs 
-                                   - nvtop 
-                                   - plasma-discover-notifier 
+      - lsd                        - kdeconnect                           
+      - mc                         - kfind
+      - micro                      - kmousetool
+      - zsh                        - krfb 
+      - zsh-syntax-highlighting    - nvtop                          
+      - zsh-autosuggestions        - plasma-discover-notifier 
                                    - plasma-welcome
-                                   - kdeconnect
+                                   
               
                                    
-    
-      
+  
 ## How do you get it?
 
 Start with any Fedora Atomic image and install it. Then follow these instructions:
