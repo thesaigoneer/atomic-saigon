@@ -26,6 +26,10 @@ modules:
       - lsd
       - mc
       - micro
+      - zsh
+      - zsh-autosuggestions
+      - zsh-html
+      - zsh-syntax-highlighting
       
     remove:
       - firefox
