@@ -34,6 +34,7 @@ modules:
       - google-noto-sans-cjk-fonts
       - kcharselect
       - kde-connect
+      - kde-connect-libs
       - kdeconnectd
       - kfind
       - kmousetool
