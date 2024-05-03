@@ -15,10 +15,11 @@ Since it is so easy to rebase I will be making some recipe's per DE. In the conf
 N.B ! If you rebase to my image (without cloning) you will currently find yourself in:
 
 - 2nd of April 2024:        - atomic-kde-saigon
-- 4th of May 2024:          - onyx-saigon
-
+- 4th of May 2024:          - onyx-saigon *
                                  
 *  = currently active
+
+A Gnome 46 recipe is available as well (silverublue-saigon) in the repo.
 
 ## Idea
 
