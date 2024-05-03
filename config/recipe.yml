@@ -39,7 +39,6 @@ modules:
       - malcontent
       - malcontent-control
       - malcontent-libs
-      - malcontent-tools
       - malcontent-ui-libs
       - nvtop
       - yelp
