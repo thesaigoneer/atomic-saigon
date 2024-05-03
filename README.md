@@ -1,6 +1,6 @@
-# Atomic-KDE-Saigon &nbsp; [![build-ublue](https://github.com/blue-build/template/actions/workflows/build.yml/badge.svg)](https://github.com/blue-build/template/actions/workflows/build.yml)
+# Atomic-Saigon &nbsp; [![build-ublue](https://github.com/blue-build/template/actions/workflows/build.yml/badge.svg)](https://github.com/blue-build/template/actions/workflows/build.yml)
 
-This is the setup of my customized ublue-kinoite image, using the BlueBuild toolkit, based on Fedora Kinoite 40.
+This is the setup of my customized ublue images, using the BlueBuild toolkit, based on Fedora 40.
 
 For more information i refer to their website at https://universal-blue.org/. You can find a large number of other specific images there as well.
 
@@ -8,6 +8,16 @@ A specific part of their toolkit is the Tinkerers Guide to building your own ima
 
 It's a work in progress, but as they mention it is 'the easiest way to build your own desktop Linux images'.
 
+## Current image
+Since it is so easy to rebase I will be making some recipe's per DE. In the config directory of this repo you will find additional yaml files, that i rename to recipe.yml and then rebase to. You can look through them for my specific adaptations.
+
+!!If you rebase to my image (without cloning) you will currently find yourself in:
+
+2nd of April 2024:     - atomic-kde-saigon 
+
+3rd of May 2024:       - bluefin-saigon * <<
+
+* = currently active
 
 ## Idea
 
