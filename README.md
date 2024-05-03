@@ -15,7 +15,7 @@ N.B ! If you rebase to my image (without cloning) you will currently find yourse
 
 2nd of April 2024:           - atomic-kde-saigon 
 
-# 3rd of May 2024:           - bluefin-saigon *
+## 3rd of May 2024:          - bluefin-saigon *
 
 * = currently active
 
