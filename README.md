@@ -9,6 +9,7 @@ A specific part of their toolkit is the Tinkerers Guide to building your own ima
 It's a work in progress, but as they mention it is 'the easiest way to build your own desktop Linux images'.
 
 ## Current image
+
 Since it is so easy to rebase I will be making some recipe's per DE. In the config directory of this repo you will find additional yaml files, that i rename to recipe.yml and then rebase to. You can look through them for my specific adaptations.
 
 N.B ! If you rebase to my image (without cloning) you will currently find yourself in:
