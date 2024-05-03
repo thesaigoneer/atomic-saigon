@@ -21,9 +21,11 @@ modules:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
       - fastfetch
+      - gtk-engine-murrine
       - lsd
       - mc
       - micro
+      - sassc
       - zsh
       - zsh-autosuggestions
       - zsh-html
@@ -32,8 +34,18 @@ modules:
     remove:
       - firefox
       - firefox-langpacks
+      - gnome-tour
       - google-noto-sans-cjk-fonts
+      - malcontent
+      - malcontent-control
+      - malcontent-libs
+      - malcontent-pam
+      - malcontent-tools
+      - malcontent-ui-libs
       - nvtop
+      - yelp
+      - yelp-devel
+      - yelp-libs
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
@@ -44,6 +56,7 @@ modules:
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
         - org.mozilla.firefox
+        - com.mattjakeman.ExtensionManager
         # - org.gnome.Loupe
         # - one.ablaze.floorp
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
