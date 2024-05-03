@@ -42,7 +42,6 @@ modules:
       - malcontent-ui-libs
       - nvtop
       - yelp
-      - yelp-devel
       - yelp-libs
 
   - type: default-flatpaks
