@@ -13,9 +13,9 @@ Since it is so easy to rebase I will be making some recipe's per DE. In the conf
 
 N.B ! If you rebase to my image (without cloning) you will currently find yourself in:
 
-2nd of April 2024:     - atomic-kde-saigon 
+2nd of April 2024:           - atomic-kde-saigon 
 
-3rd of May 2024:       - ## bluefin-saigon *
+# 3rd of May 2024:           - bluefin-saigon *
 
 * = currently active
 
