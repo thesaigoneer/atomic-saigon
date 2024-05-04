@@ -25,6 +25,7 @@ modules:
       - lsd
       - mc
       - micro
+      - rofi
       - sassc
       - zsh
       - zsh-autosuggestions
