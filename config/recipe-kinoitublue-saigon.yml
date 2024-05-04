@@ -1,5 +1,5 @@
 # image will be published to ghcr.io/<user>/<name>
-name: atomic-kde-saigon
+name: kinoitublue-saigon
 # description will be included in the image's metadata
 description: the saigoneer's ublue-kinoite spin
 
