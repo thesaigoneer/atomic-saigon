@@ -25,6 +25,7 @@ modules:
       - lsd
       - mc
       - micro
+      - sassc
       - zsh
       - zsh-autosuggestions
       - zsh-html
