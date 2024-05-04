@@ -20,6 +20,7 @@ modules:
     repos:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
+      - dunst
       - fastfetch
       - herbstluftwm
       - herbstluftwm-zsh
@@ -29,6 +30,7 @@ modules:
       - micro
       - nitrogen
       - pamixer
+      - picom
       - polybar
       - rofi
       - sassc
