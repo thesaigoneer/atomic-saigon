@@ -1,7 +1,7 @@
 # image will be published to ghcr.io/<user>/<name>
 name: atomic-saigon
 # description will be included in the image's metadata
-description: the saigoneer's ublue spins
+description: the saigoneer's ublue-onyx spin
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/onyx-main
@@ -25,6 +25,7 @@ modules:
       - lsd
       - mc
       - micro
+      - nitrogen
       - rofi
       - sassc
       - zsh
