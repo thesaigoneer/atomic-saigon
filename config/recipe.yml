@@ -21,13 +21,18 @@ modules:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
       - fastfetch
+      - herbstluftwm
+      - herbstluftwm-zsh
       - kitty
       - lsd
       - mc
       - micro
       - nitrogen
+      - pamixer
+      - polybar
       - rofi
       - sassc
+      - sxhkd
       - zsh
       - zsh-autosuggestions
       - zsh-html
