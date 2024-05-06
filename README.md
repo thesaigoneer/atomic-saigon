@@ -20,7 +20,7 @@ N.B ! If you rebase to my image (without cloning) you will currently find yourse
                                  
 *  = currently active
 
-From the start of May I am running the windowmanager Herbstluftwm, on top of Vauxite (xfce desktop). From the login screen both sessions are available.
+-  From the start of May I am running the windowmanager Herbstluftwm, on top of Vauxite (xfce desktop). From the login screen both sessions are available.
 
 ## Idea
 
@@ -56,11 +56,11 @@ With regards to flatpaks: I suggest to use the verified versions. That 'proves' 
       - mc                                      
       - micro                                                
       - nitrogen
+      - opendoas
       - pamixer
       - polybar
       - rofi
       - sassc
-      - sxhkd
       - zsh                              
       - zsh-syntax-highlighting                      
       - zsh-autosuggestions                          
@@ -82,7 +82,7 @@ Rebase to the signed variant of the image:
 
 * Reboot: systemctl reboot
 
-Login to your new KDE Plasma Atomic from Saigon!
+Login to your new Atomic from Saigon!
 
 ## WIP
 
