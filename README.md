@@ -16,11 +16,11 @@ N.B ! If you rebase to my image (without cloning) you will currently find yourse
 
 - 2nd of April 2024:        - atomic-kde-saigon
 
-- 4th of May 2024:          - onyx-saigon *
+- 4th of May 2024:          - vauxite-saigon *
                                  
 *  = currently active
 
-A Gnome 46 recipe is available as well (silverublue-saigon) in the repo.
+From the start of May I am running the windowmanager Herbstluftwm, on top of Vauxite (xfce desktop). From the login screen both sessions are available.
 
 ## Idea
 
@@ -47,12 +47,21 @@ With regards to flatpaks: I suggest to use the verified versions. That 'proves' 
 
 
       What has been added:         What has been removed:          
-      
-      - fastfetch                  - firefox (rpm)                 
-      - lsd                        - firefox-langpacks            
-      - mc                         - nvtop              
-      - micro                      - google-noto-serif-fonts                           
-      - zsh                        - google-noto-sans-cjk-fonts      
+      - arandr                     - firefox (rpm) 
+      - dunst                      - firefox-langpacks 
+      - fastfetch                  - nvtop                 
+      - herbstluftwm               - google-noto-serif-fonts 
+      - herbstluftwm-zsh           - google-noto-sans-cjk-fonts
+      - lsd                                   
+      - mc                                      
+      - micro                                                
+      - nitrogen
+      - pamixer
+      - polybar
+      - rofi
+      - sassc
+      - sxhkd
+      - zsh                              
       - zsh-syntax-highlighting                      
       - zsh-autosuggestions                          
                                                        
