@@ -16,11 +16,10 @@ N.B ! If you rebase to my image (without cloning) you will currently find yourse
 
 - 2nd of April 2024:        - atomic-kde-saigon
 
-- 4th of May 2024:          - vauxite-saigon *
+- 4th of May 2024:          - vauxite-saigon * (currently active)
                                  
-*  = currently active
 
--  From the start of May I am running the windowmanager Herbstluftwm, on top of Vauxite (xfce desktop). From the login screen both sessions are available.
+-  From the start of May I am running Herbstluftwm, on top of Vauxite (Xfce desktop). From the login screen both sessions are available, so you can pick your poison.
 
 ## Idea
 
@@ -47,24 +46,21 @@ With regards to flatpaks: I suggest to use the verified versions. That 'proves' 
 
 
       What has been added:         What has been removed:          
-      - arandr                     - firefox (rpm) 
-      - dunst                      - firefox-langpacks 
-      - fastfetch                  - nvtop                 
-      - herbstluftwm               - google-noto-serif-fonts 
-      - herbstluftwm-zsh           - google-noto-sans-cjk-fonts
-      - lsd                                   
-      - mc                                      
-      - micro                                                
-      - nitrogen
-      - opendoas
-      - pamixer
-      - polybar
-      - rofi
-      - sassc
-      - zsh                              
-      - zsh-syntax-highlighting                      
-      - zsh-autosuggestions                          
-                                                       
+       - fastfetch                 - firefox (rpm) 
+       - herbstluftwm              - firefox-langpacks 
+       - herbstluftwm-zsh          - nvtop                 
+       - lsd                       - google-noto-serif-fonts 
+       - mc                        - google-noto-sans-cjk-fonts
+       - micro                                                
+       - nitrogen
+       - opendoas
+       - pamixer
+       - polybar
+       - rofi
+       - zsh                              
+       - zsh-syntax-highlighting                      
+       - zsh-autosuggestions                                   
+   
  
 ## How do you get it?
 
