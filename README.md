@@ -46,11 +46,12 @@ With regards to flatpaks: I suggest to use the verified versions. That 'proves' 
 
 
       What has been added:         What has been removed:          
-       - fastfetch                 - firefox (rpm) 
-       - herbstluftwm              - firefox-langpacks 
-       - herbstluftwm-zsh          - nvtop                 
-       - lsd                       - google-noto-serif-fonts 
-       - mc                        - google-noto-sans-cjk-fonts
+       - alacritty                 - firefox (rpm)
+       - fastfetch                 - firefox-langpacks 
+       - herbstluftwm              - nvtop 
+       - herbstluftwm-zsh          - google-noto-serif-fonts                 
+       - lsd                       - google-noto-sans-cjk-fonts 
+       - mc                        
        - micro                                                
        - nitrogen
        - opendoas
