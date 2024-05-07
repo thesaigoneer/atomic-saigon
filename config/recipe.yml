@@ -4,7 +4,7 @@ name: atomic-saigon
 description: the saigoneer's autumn-sky-saigon spin
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/sericea-main
+base-image: ghcr.io/ublue-os/vauxite-main
 image-version: 40 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -33,6 +33,7 @@ modules:
       - pamixer
       - picom
       - polybar
+      - rofi
       - zsh
       - zsh-autosuggestions
       - zsh-html
