@@ -33,7 +33,6 @@ modules:
       - pamixer
       - picom
       - polybar
-      - rofi
       - zsh
       - zsh-autosuggestions
       - zsh-html
