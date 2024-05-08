@@ -34,7 +34,6 @@ modules:
       - picom
       - polybar
       - rofi
-      - spectrwm
       - zsh
       - zsh-autosuggestions
       - zsh-html
