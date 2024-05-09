@@ -4,7 +4,7 @@ name: atomic-saigon
 description: the saigoneer's autumn-sky-saigon spin
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/onyx-main
+base-image: ghcr.io/ublue-os/vauxite-main
 image-version: 40 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -42,7 +42,6 @@ modules:
     remove:
       - firefox
       - firefox-langpacks
-      - gnome-terminal
       - google-noto-sans-cjk-fonts
       - nvtop
       
@@ -65,4 +64,3 @@ modules:
       # - org.gnome.eog
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
-
