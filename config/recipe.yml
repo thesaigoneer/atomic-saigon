@@ -26,6 +26,7 @@ modules:
       - herbstluftwm
       - herbstluftwm-zsh
       - lsd
+      - lxappearance
       - mc
       - micro
       - nitrogen
