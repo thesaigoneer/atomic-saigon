@@ -22,6 +22,7 @@ modules:
     install:
       - alacritty
       - arandr
+      - bspwm
       - fastfetch
       - herbstluftwm
       - herbstluftwm-zsh
@@ -35,6 +36,7 @@ modules:
       - picom
       - polybar
       - rofi
+      - sxhkd
       - zsh
       - zsh-autosuggestions
       - zsh-html
