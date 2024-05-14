@@ -16,11 +16,12 @@ N.B ! If you rebase to my image (without cloning) you will currently find yourse
 
 - 2nd of April 2024:        - atomic-kde-saigon
 
-- 4th of May 2024:          - vauxite-saigon * (currently active)
+- 4th of May 2024:          - vauxite-saigon 
+
+- 14th of May 2024:         - atomic-kde-saigon * (currently active)
                                  
-
--  From the start of May I am running Herbstluftwm, on top of Vauxite (Xfce desktop). From the login screen both sessions are available, so you can pick your poison.
-
+- I've been spending some time in other KDE spins, but none beats mine for functionality, except for MicroOS Kalpa ;-)
+  
 ## Idea
 
 In 2022 I already made a number of adapted images, but that got shelved and discontinued by me after some time.
@@ -45,22 +46,19 @@ One flatpak is installed ootb; Firefox is included. I suggest you look at the in
 With regards to flatpaks: I suggest to use the verified versions. That 'proves' the application you are installing has been provided by the official publisher. More and more applications are reaching that status.
 
 
-      What has been added:         What has been removed:          
-       - alacritty                 - firefox (rpm)
-       - fastfetch                 - firefox-langpacks 
-       - herbstluftwm              - nvtop 
-       - herbstluftwm-zsh          - google-noto-serif-fonts                 
-       - lsd                       - google-noto-sans-cjk-fonts 
-       - mc                        
-       - micro                                                
-       - nitrogen
-       - opendoas
-       - pamixer
-       - polybar
-       - rofi
-       - zsh                              
-       - zsh-syntax-highlighting                      
-       - zsh-autosuggestions                                   
+      What has been added:            What has been removed:          
+      - fastfetch                     - kcharselect
+      - kde-print-manager             - kde-connect
+      - krusader                      - kde-connect-libs
+      - lsd                           - kdeconnectd
+      - mc                            - kfind
+      - micro                         - kmousetool
+      - zsh (incl. completions)       - krfb, krfb-libs
+                                      - nvtop
+                                      - plasma-discover-notifier
+                                      - plasma-welcome
+     
+                                  
    
  
 ## How do you get it?
