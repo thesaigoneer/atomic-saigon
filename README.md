@@ -20,7 +20,7 @@ N.B ! If you rebase to my image (without cloning) you will currently find yourse
 
 - 14th of May 2024:         - atomic-kde-saigon * (currently active)
                                  
-- I've been spending some time in other KDE spins, but none beats mine for functionality, except for MicroOS Kalpa ;-)
+ I've been spending some time in other KDE spins, but none beats mine for functionality, except for MicroOS Kalpa which is on par ;-)
   
 ## Idea
 
