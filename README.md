@@ -41,7 +41,7 @@ An extensive job has been done in the last years to make most other applications
 
 I've only included some applications per DE that I use and that have not (yet) been flatpak'ed, plus some cli tools that i use. Can't live without my Midnight Commander!
 
-One flatpak is installed ootb; Firefox is included. I suggest you look at the individual recipes to see what I left out for that specific DE or WM.
+One flatpak is installed ootb; Brave browser is included. I suggest you look at the individual recipes to see what I left out for that specific DE or WM.
 
 With regards to flatpaks: I suggest to use the verified versions. That 'proves' the application you are installing has been provided by the official publisher. More and more applications are reaching that status.
 
@@ -50,7 +50,7 @@ With regards to flatpaks: I suggest to use the verified versions. That 'proves' 
       - fastfetch                     - kcharselect
       - kde-print-manager             - kde-connect
       - krusader                      - kde-connect-libs
-      - lsd                           - kdeconnectd
+      - eza                           - kdeconnectd
       - mc                            - kfind
       - micro                         - kmousetool
       - zsh (incl. completions)       - krfb, krfb-libs
