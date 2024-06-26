@@ -41,7 +41,6 @@ modules:
       - kde-connect-libs
       - kdeconnectd
       - kfind
-      - kmousetool
       - krfb
       - krfb-libs
       - nvtop
