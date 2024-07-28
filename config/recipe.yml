@@ -26,20 +26,13 @@ modules:
       - micro
       
     remove:
-      - firefox
-      - firefox-langpacks
-      - google-noto-serif-fonts
-      - google-noto-sans-cjk-fonts
       - kcharselect
       - kde-connect
       - kde-connect-libs
       - kdeconnectd
       - kfind
-      - krfb
-      - krfb-libs
       - nvtop
       - plasma-discover-notifier
-
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
