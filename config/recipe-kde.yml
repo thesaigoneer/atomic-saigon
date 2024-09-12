@@ -1,11 +1,11 @@
 # image will be published to ghcr.io/<user>/<name>
 name: atomic-saigon
 # description will be included in the image's metadata
-description: the saigoneer's autumn-sky-saigon spin
+description: the saigoneer's ublue-kinoite spin
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/vauxite-main
-image-version: 40 # latest is also supported if you want new updates ASAP
+base-image: ghcr.io/ublue-os/kinoite-main
+image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -18,24 +18,14 @@ modules:
 
   - type: rpm-ostree
     repos:
-      https://copr.fedorainfracloud.org/coprs/lucamagrone/dwm/repo/fedora-40/lucamagrone-dwm-fedora-40.repo
+      # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
-      - st
-      - arandr
-      - dwm
       - fastfetch
-      - dmenu
-      - slstatus
+      - kde-print-manager
+      - krusader
       - eza
-      - lxappearance
       - mc
       - micro
-      - nitrogen
-      - opendoas
-      - pamixer
-      - picom
-      - dunst
-      - rofi
       - zsh
       - zsh-autosuggestions
       - zsh-html
@@ -44,9 +34,19 @@ modules:
     remove:
       - firefox
       - firefox-langpacks
+      - google-noto-serif-fonts
       - google-noto-sans-cjk-fonts
+      - kcharselect
+      - kde-connect
+      - kde-connect-libs
+      - kdeconnectd
+      - kfind
+      - krfb
+      - krfb-libs
       - nvtop
-      
+      - plasma-discover-notifier
+      - plasma-welcome
+
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
@@ -55,8 +55,7 @@ modules:
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
-        # - org.mozilla.firefox
-        # - com.mattjakeman.ExtensionManager
+        - io.github.zen_browser.zen
         # - org.gnome.Loupe
         # - one.ablaze.floorp
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
