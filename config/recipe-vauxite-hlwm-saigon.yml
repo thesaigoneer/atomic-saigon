@@ -5,7 +5,7 @@ description: the saigoneer's autumn-sky-saigon spin
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/vauxite-main
-image-version: 40 # latest is also supported if you want new updates ASAP
+image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -56,7 +56,7 @@ modules:
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
-        - org.mozilla.firefox
+        # - org.mozilla.firefox
         # - com.mattjakeman.ExtensionManager
         # - org.gnome.Loupe
         # - one.ablaze.floorp
