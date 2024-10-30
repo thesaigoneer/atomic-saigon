@@ -46,7 +46,6 @@ modules:
       - krfb-libs
       - nvtop
       - plasma-discover-notifier
-      - plasma-welcome
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
