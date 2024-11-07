@@ -24,8 +24,6 @@ Be aware that this (with some very minor adaptations) is the Cosmic 'basic' spin
 
 In 2022 I already made a number of adapted images, but that got shelved and discontinued by me after some time.
 
-Now, with the availability of KDE Plasma 6, it was time to revive it and remake that custom image. 
-
 These images will deliver an atomic desktop, with all Ublue tooling and tweaks included, but with the visible applications brought back to a bare minimum, as I like it.
 
 
@@ -45,20 +43,12 @@ With regards to flatpaks: I suggest to use the verified versions. That 'proves' 
 
 
       What has been added:            What has been removed:          
-      - fastfetch                     - kcharselect
-      - kde-print-manager             - kde-connect
-      - krusader                      - kde-connect-libs
-      - eza                           - kdeconnectd
-      - mc                            - kfind
-      - micro                         - kmousetool
-      - zsh (incl. completions)       - krfb, krfb-libs
-                                      - nvtop
-                                      - plasma-discover-notifier
-                                      - plasma-welcome
-     
-                                  
-   
- 
+      - fastfetch                     - firefox
+      - eza                           - nvtop
+      - mc                            
+      - micro                         
+      - zsh (incl. completions)       
+                                      
 ## How do you get it?
 
 Start with any Fedora Atomic image and install it. Then follow these instructions:
@@ -81,9 +71,7 @@ Login to your new Atomic from Saigon!
 
 * This is a work-in-progress, so expect some changes over time (although nothing fundamental). 
       
-* At a certain moment i'd like to get rid of Discover altogether, but for now I've just disabled the nagging notifier
-
-                         
+                       
 ## Current Quirks:
 
 None
