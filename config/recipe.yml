@@ -4,8 +4,8 @@ name: atomic-saigon
 description: the saigoneer's cosmic bluebuild spin
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/main
-image-version: cosmic-40-amd64 # latest is also supported if you want new updates ASAP
+base-image: ghcr.io/ublue-os/cosmic
+image-version: cosmic # latest is also supported if you want new updates ASAP
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
