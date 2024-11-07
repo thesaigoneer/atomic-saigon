@@ -109,7 +109,6 @@ modules:
       - madan-fonts
       - default-fonts-ne
       - sil-nuosu-fonts
-      - default-fonts-vi
       - paktype-naskh-basic-fonts
       - default-fonts-ur
       - rit-meera-new-fonts
