@@ -34,8 +34,6 @@ modules:
       - nvtop
       - default-fonts-as
       - default-fonts-bn
-      - google-noto-sans-oriya-vf-fonts
-      - default-fonts-or
       - default-fonts-mni
       - default-fonts-other-sans
       - default-fonts-hi
@@ -88,6 +86,7 @@ modules:
       - google-noto-sans-lao-vf-fonts
       - default-fonts-lo
       - google-noto-sans-meeteimayek-vf-fonts
+      - google-noto-sans-oriya-vf-fonts
       - default-fonts-or
       - google-noto-sans-gurmukhi-vf-fonts
       - default-fonts-pa
