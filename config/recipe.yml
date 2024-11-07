@@ -60,6 +60,7 @@ modules:
       - default-fonts-ve
       - default-fonts-vi
       - default-fonts-xh
+      - default-fonts-yi
       - default-fonts-zu
       - google-noto-sans-ethiopic-vf-fonts
       - default-fonts-am
@@ -113,8 +114,6 @@ modules:
       - default-fonts-ur
       - rit-meera-new-fonts
       - default-fonts-ml
-      - abattis-cantarell-vf-fonts
-      - google-noto-sans-vf-fonts
       - google-noto-sans-devanagari-vf-fonts
       - google-noto-sans-bengali-vf-fonts
 
