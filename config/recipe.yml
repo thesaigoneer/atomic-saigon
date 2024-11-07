@@ -32,6 +32,8 @@ modules:
       - firefox
       - firefox-langpacks
       - nvtop
+      - google-noto-sans-oriya-vf-fonts
+      - default-fonts-mni
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
