@@ -38,6 +38,31 @@ modules:
       - default-fonts-or
       - default-fonts-mni
       - default-fonts-other-sans
+      - default-fonts-hi
+      - default-fonts-mai
+      - default-fonts-mr
+      - default-fonts-ast
+      - default-fonts-be
+      - default-fonts-bg
+      - default-fonts-br
+      - default-fonts-dz
+      - default-fonts-el
+      - default-fonts-eo
+      - default-fonts-eu
+      - default-fonts-ia
+      - default-fonts-ku
+      - default-fonts-nb
+      - default-fonts-nn
+      - default-fonts-nr
+      - default-fonts-nso
+      - default-fonts-ru
+      - default-fonts-ss
+      - default-fonts-tn
+      - default-fonts-ts
+      - default-fonts-ve
+      - default-fonts-vi
+      - default-fonts-xh
+      - default-fonts-zu
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
