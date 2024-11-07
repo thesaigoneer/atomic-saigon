@@ -63,7 +63,7 @@ modules:
       - default-fonts-zu
       - google-noto-sans-ethiopic-vf-fonts
       - default-fonts-am
-      - google-noto-sans-arabic
+      - google-noto-sans-arabic-vf-fonts
       - default-fonts-ar
       - google-noto-sans-cherokee-vf-fonts
       - default-fonts-chr
