@@ -14,9 +14,11 @@ Since it is so easy to rebase I will be making some recipe's per DE. In the conf
 
 N.B ! If you rebase to my image (without cloning) you will currently find yourself in:
 
-- 14th of May 2024:  atomic-kde-saigon * (currently active)
-                                 
- I've been spending some time in other KDE spins, but none beats mine for functionality, except for MicroOS Kalpa which is on par ;-)
+- 7th of November 2024: Cosmic DE
+
+The idea of running an alpha on top of ublue-core was irresistible. That's what all this was originally made for. 
+
+Be aware that this (with some very minor adaptations) is the Cosmic 'basic' spin; Ublue also has versions of Cosmic on top of Silverblue and Kinoite available.
   
 ## Idea
 
