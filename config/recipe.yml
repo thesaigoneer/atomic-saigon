@@ -116,6 +116,8 @@ modules:
       - sil-mingzat-fonts
       - rit-rachana-fonts
       - urw-base35-nimbus-roman-fonts
+      - default-fonts-other-serif
+      - urw-base35-fonts
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
