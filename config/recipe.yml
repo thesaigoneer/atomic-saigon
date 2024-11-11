@@ -49,6 +49,7 @@ modules:
       - default-fonts-ss
       - default-fonts-tn
       - default-fonts-ts
+      - default-fonts-uk
       - default-fonts-ve
       - default-fonts-vi
       - default-fonts-xh
@@ -110,6 +111,7 @@ modules:
       - google-noto-sans-bengali-vf-fonts
       - google-noto-fonts-common
       - google-noto-sans-vf-fonts
+      - google-noto-serif-vf-fonts
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
