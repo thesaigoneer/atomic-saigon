@@ -111,7 +111,13 @@ modules:
       - google-noto-sans-bengali-vf-fonts
       - google-noto-sans-balinese-fonts
       - google-noto-sans-cjk-fonts
-      - google-noto-sans-cjk-vf-fonts
+      - google-noto-sans-hk-fonts
+      - google-noto-sans-kr-fonts
+      - google-noto-sans-jp-fonts
+      - google-noto-sans-tc-fonts
+      - google-noto-sans-sc-fonts
+      - google-noto-sans-javanese-fonts
+      - google-noto-sans-sundanese-fonts
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
