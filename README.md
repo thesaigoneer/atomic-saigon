@@ -31,24 +31,18 @@ These images will deliver an atomic desktop, with all Ublue tooling and tweaks i
 
 All tooling added by the Ublue project remains pristine. Suffice to say I don't run the DX (developers) or Nvidia images here; it is the 'standard' version of their and Fedora's images that I'm adjusting here.
 
-This means software like distrobox, fzf, firewalld, vim and htop has already been included in the base image.
-
-An extensive job has been done in the last years to make most other applications available through a flatpak as well. So, no need to include a lot in the images. 
-
-I've only included some applications per DE that I use and that have not (yet) been flatpak'ed, plus some cli tools that i use. Can't live without my Midnight Commander!
-
-One flatpak is installed ootb; Zen browser is included. I suggest you look at the individual recipes to see what I left out for that specific DE or WM.
-
+This means software like distrobox, fzf, firewalld, vim and htop has already been included in the base image. I have only included fastfetch and zsh ootb and removed a ton of fonts and Firefox (which surprisingly enough is installed from the repo's).
+All other required/desired software can be installed through flatpak and/or distrobox. In this Ucore based image no Homebrew is installed.
 With regards to flatpaks: I suggest to use the verified versions. That 'proves' the application you are installing has been provided by the official publisher. More and more applications are reaching that status.
 
 
       What has been added:            What has been removed:          
       - fastfetch                     - firefox
-      - eza                           - nvtop
-      - mc                            
-      - micro                         
-      - zsh (incl. completions)       
-                                      
+      - zsh (incl. completions)       - nvtop
+                                      - 91 various fonts
+                             
+          
+                                   
 ## How do you get it?
 
 Start with any Fedora Atomic image and install it. Then follow these instructions:
