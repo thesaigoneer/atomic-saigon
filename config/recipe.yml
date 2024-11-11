@@ -114,7 +114,8 @@ modules:
       - google-noto-sans-javanese-fonts
       - google-noto-sans-sundanese-fonts
       - sil-mingzat-fonts
-      - google-noto-serif-gujarati-fonts
+      - rit-rachana-fonts
+      - urw-base35-nimbus-roman-fonts
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
