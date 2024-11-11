@@ -109,9 +109,7 @@ modules:
       - default-fonts-ml
       - google-noto-sans-devanagari-vf-fonts
       - google-noto-sans-bengali-vf-fonts
-      - google-noto-fonts-common
-      - google-noto-sans-vf-fonts
-      - google-noto-serif-vf-fonts
+
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
