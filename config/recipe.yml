@@ -107,16 +107,18 @@ modules:
       - default-fonts-ur
       - rit-meera-new-fonts
       - default-fonts-ml
+      - google-noto-naskh-arabic-fonts
       - google-noto-sans-devanagari-vf-fonts
       - google-noto-sans-bengali-vf-fonts
       - google-noto-sans-balinese-fonts
       - google-noto-sans-cjk-fonts
+      - google-droid-sans-fonts
       - google-noto-sans-kr-fonts
-      - google-noto-sans-jp-fonts
       - google-noto-sans-tc-fonts
       - google-noto-sans-sc-fonts
       - google-noto-sans-javanese-fonts
       - google-noto-sans-sundanese-fonts
+      - sil-mingzat-fonts
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
