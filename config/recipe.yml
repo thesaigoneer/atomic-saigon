@@ -22,7 +22,6 @@ modules:
     install:
       - hyprland
       - xdg-desktop-portal-hyprland
-      - xdg-desktop-portal-kde
       - xdg-desktop-portal-gtk
       - fastfetch
       - fuse
