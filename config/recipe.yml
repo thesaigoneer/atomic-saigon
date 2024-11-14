@@ -26,8 +26,7 @@ modules:
       - hypridle
       - alacritty
       - fastfetch
-      - mc
-      - micro
+      - nwg-shell
       - zsh
       - zsh-autosuggestions
       - zsh-html
