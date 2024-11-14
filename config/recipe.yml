@@ -22,11 +22,12 @@ modules:
     install:
       - hyprland
       - xdg-desktop-portal-hyprland
-      - hyprlock
-      - hypridle
       - fastfetch
+      - kde-gtk-config
+      - lightdm-nwg-greeter
       - nwg-shell
       - pamixer
+      - polkit-gnome
       - zsh
       - zsh-autosuggestions
       - zsh-html
@@ -36,7 +37,9 @@ modules:
       - firefox
       - firefox-langpacks
       - atril
+      - foot
       - galculator
+      - mousepad
       - xfce4-terminal
       - xfce4-sensors-plugin
       - xfce4-taskmanager
