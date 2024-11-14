@@ -45,6 +45,14 @@ modules:
       - xfce4-dict-plugin
       - xfce4-sensors-plugin
       - xfce4-terminal
+      - atril
+      - galculator  
+      - libmousepad0
+      - mousepad
+      - ristretto
+      - xfce4-taskmanager
+      - xfdashboard
+      - xfdashboard-themes
    
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
