@@ -38,6 +38,7 @@ modules:
       - firefox-langpacks
       - atril
       - galculator
+      - libmousepad0
       - mousepad
       - xfce4-terminal
       - xfce4-sensors-plugin
