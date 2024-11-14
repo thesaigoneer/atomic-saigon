@@ -43,8 +43,6 @@ modules:
       - xfdashboard
       - xfdashboard-themes
       - ristretto
-      - mousepad
-      - libmousepad
       - google-noto-sans-cjk-fonts
       - nvtop
       
