@@ -22,8 +22,11 @@ modules:
     install:
       - hyprland
       - xdg-desktop-portal-hyprland
+      - dbus
+      - xdg-desktop-portal-kde
+      - xdg-desktop-portal-gtk
       - fastfetch
-      - kde-gtk-config
+      - fuse
       - lightdm-nwg-greeter
       - nwg-shell
       - pamixer
