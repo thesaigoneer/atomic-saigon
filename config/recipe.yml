@@ -50,6 +50,7 @@ modules:
       - mousepad
       - xfce4-appfinder
       - xfce4-dict
+      - xfce4-dict-plugin
       - xfce4-terminal
       - xfce4-sensors-plugin
       - xfce4-taskmanager
