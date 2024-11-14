@@ -24,7 +24,6 @@ modules:
       - xdg-desktop-portal-hyprland
       - hyprlock
       - hypridle
-      - alacritty
       - fastfetch
       - nwg-shell
       - zsh
@@ -35,6 +34,8 @@ modules:
     remove:
       - firefox
       - firefox-langpacks
+      - kitty
+      - mousepad
       - google-noto-sans-cjk-fonts
       - nvtop
       
