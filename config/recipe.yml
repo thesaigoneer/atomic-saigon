@@ -22,12 +22,10 @@ modules:
     install:
       - hyprland
       - xdg-desktop-portal-hyprland
-      - dbus
       - xdg-desktop-portal-kde
       - xdg-desktop-portal-gtk
       - fastfetch
       - fuse
-      - lightdm-nwg-greeter
       - nwg-shell
       - pamixer
       - polkit
@@ -35,6 +33,13 @@ modules:
       - zsh-autosuggestions
       - zsh-html
       - zsh-syntax-highlighting
+      - sddm
+      - sddm-themes
+      - qt5-qtgraphicaleffects
+      - qt5-qtquickcontrols2
+      - qt5-qtsvg
+      - kwallet
+      - pam-kwallet
       
     remove:
       - firefox
@@ -43,6 +48,8 @@ modules:
       - galculator
       - libmousepad0
       - mousepad
+      - xfce4-appfinder
+      - xfce4-dict
       - xfce4-terminal
       - xfce4-sensors-plugin
       - xfce4-taskmanager
