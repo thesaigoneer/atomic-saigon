@@ -26,6 +26,7 @@ modules:
       - hypridle
       - fastfetch
       - nwg-shell
+      - pamixer
       - zsh
       - zsh-autosuggestions
       - zsh-html
@@ -34,7 +35,12 @@ modules:
     remove:
       - firefox
       - firefox-langpacks
-      - kitty
+      - galculator
+      - xfce4-terminal
+      - xfce4-sensors-plugin
+      - xfce4-taskmanager
+      - xfdashboard
+      - ristretto
       - mousepad
       - google-noto-sans-cjk-fonts
       - nvtop
