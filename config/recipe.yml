@@ -35,13 +35,16 @@ modules:
     remove:
       - firefox
       - firefox-langpacks
+      - atril
       - galculator
       - xfce4-terminal
       - xfce4-sensors-plugin
       - xfce4-taskmanager
       - xfdashboard
+      - xfdashboard-themes
       - ristretto
       - mousepad
+      - libmousepad
       - google-noto-sans-cjk-fonts
       - nvtop
       
