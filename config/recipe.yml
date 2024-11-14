@@ -27,7 +27,7 @@ modules:
       - lightdm-nwg-greeter
       - nwg-shell
       - pamixer
-      - polkit-gnome
+      - polkit
       - zsh
       - zsh-autosuggestions
       - zsh-html
