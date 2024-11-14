@@ -37,7 +37,6 @@ modules:
       - firefox
       - firefox-langpacks
       - atril
-      - foot
       - galculator
       - mousepad
       - xfce4-terminal
