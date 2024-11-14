@@ -36,7 +36,6 @@ modules:
     remove:
       - firefox
       - firefox-langpacks
-      - google-noto-serif-fonts
       - google-noto-sans-cjk-fonts
       - mint-x-icons
       - mint-y-icons
