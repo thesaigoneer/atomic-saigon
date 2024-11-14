@@ -4,7 +4,7 @@ name: atomic-saigon
 description: the saigoneer's hypr-nwg-saigon spin
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/kinoite-main
+base-image: ghcr.io/ublue-os/vauxite-main
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -27,7 +27,7 @@ modules:
       - fuse
       - nwg-shell
       - pamixer
-      - polkit
+      - xfce-polkit
       - zsh
       - zsh-autosuggestions
       - zsh-html
@@ -38,16 +38,15 @@ modules:
       - firefox-langpacks
       - google-noto-serif-fonts
       - google-noto-sans-cjk-fonts
-      - kcharselect
-      - kde-connect
-      - kde-connect-libs
-      - kdeconnectd
-      - kfind
-      - krfb
-      - krfb-libs
+      - mint-x-icons
+      - mint-y-icons
       - nvtop
-      - plasma-discover-notifier
-      
+      - xfce4-appfinder
+      - xfce4-dict
+      - xfce4-dict-plugin
+      - xfce4-sensors-plugin
+      - xfce4-terminal
+   
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
