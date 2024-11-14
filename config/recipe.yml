@@ -32,14 +32,7 @@ modules:
       - zsh-autosuggestions
       - zsh-html
       - zsh-syntax-highlighting
-      - sddm
-      - sddm-themes
-      - qt5-qtgraphicaleffects
-      - qt5-qtquickcontrols2
-      - qt5-qtsvg
-      - kwallet
-      - pam-kwallet
-      
+    
     remove:
       - firefox
       - firefox-langpacks
