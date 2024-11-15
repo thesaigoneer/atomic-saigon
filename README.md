@@ -59,7 +59,8 @@ Login to your new Atomic from Saigon!
 
     Press Super + M to open the Kitty terminal (part of the Hyprland package)
     Type: nwg-shell-installer -a -hypr  and press Enter
-    Press Super + Q to exit Hyprland and re-login into nwg-shell
+    Press Super + Q to exit Hyprland 
+    Re-login into nwg-shell and start making your own adaptations
                     
 ## Current Quirks:
 
