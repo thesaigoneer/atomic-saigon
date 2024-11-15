@@ -55,6 +55,11 @@ Rebase to the signed variant of the image:
 
 Login to your new Atomic from Saigon!
 
+##  Additional steps for nwg-shell:
+
+    Press Super + M to open the Kitty terminal (part of the Hyprland package)
+    Type: nwg-shell-installer -a -hypr  and press Enter
+    Press Super + Q to exit Hyprland and re-login into nwg-shell
                     
 ## Current Quirks:
 
