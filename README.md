@@ -11,10 +11,9 @@ It's a work in progress, but as they mention it is 'the easiest way to build you
 Since it is so easy to rebase I will be making some recipe's per DE. In the config directory of this repo you will find additional yaml files, that i rename to recipe.yml and then rebase to. You can look through them for my specific adaptations.
 N.B ! If you rebase to my image (without cloning) you will currently find yourself in:
 
-- 7th of November 2024: Cosmic DE
+- 15th of November 2024: nwg-shell on hyprland
 
-The idea of running an alpha on top of ublue-core was irresistible. That's what all this was originally made for. 
-Be aware that this (with some very minor adaptations) is the Cosmic 'basic' spin; Ublue also has versions of Cosmic on top of Silverblue and Kinoite available.
+Many thanks to https://github.com/kuba3351 for enabling all this on Copr and of course to https://github.com/nwg-piotr, the maker of nwg-shell. Read more here: https://github.com/nwg-piotr/nwg-shell/wiki
   
 ## Idea
 
@@ -31,12 +30,14 @@ With regards to flatpaks: I suggest to use the verified versions. That 'proves' 
 
 
       What has been added:            What has been removed:          
-      - fastfetch                     - firefox
-      - zsh (incl. completions)       - nvtop
-                                      - 91 various fonts
-                             
-          
-                                   
+      - hyprland                       - firefox
+      - nwg-shell                      - nvtop
+      - fastfetch                      - various fonts and themes        
+      - mc, micro, rofi
+      - zsh (incl. completions)       
+                                      
+                            
+                                    
 ## How do you get it?
 
 Start with any Fedora Atomic image and install it. Then follow these instructions:
