@@ -4,7 +4,7 @@ name: atomic-saigon
 description: the saigoneer's cosmic bluebuild spin
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/cosmic
+base-image: ghcr.io/ublue-os/vauxite-main
 image-version: 40 # latest is also supported if you want new updates ASAP
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -14,111 +14,43 @@ modules:
       - usr: /usr # copies config/files/usr into your image's /usr.
                   # put configuration files you want in /etc/ on a booted system 
                   # in /usr/etc/ in the image. read more in files module reference.
-  - type: rpm-ostree
+   - type: rpm-ostree
     repos:
-      # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/tofik/nwg-shell/repo/fedora-41/tofik-nwg-shell-fedora-41.repo
     install:
+      - hyprland
+      - xdg-desktop-portal-hyprland
+      - xdg-desktop-portal-gtk
       - fastfetch
+      - fuse
+      - nwg-shell
+      - pamixer
+      - xfce-polkit
       - zsh
       - zsh-autosuggestions
       - zsh-html
       - zsh-syntax-highlighting
+    
     remove:
       - firefox
       - firefox-langpacks
-      - nvtop
-      - default-fonts-am      
-      - default-fonts-as
-      - default-fonts-ar
-      - default-fonts-bn
-      - default-fonts-chr
-      - default-fonts-mni
-      - default-fonts-hi
-      - default-fonts-mai
-      - default-fonts-mr
-      - default-fonts-ast
-      - default-fonts-be
-      - default-fonts-bg
-      - default-fonts-bo
-      - default-fonts-br
-      - default-fonts-dz
-      - default-fonts-dv
-      - default-fonts-el
-      - default-fonts-eo
-      - default-fonts-eu
-      - default-fonts-fa
-      - default-fonts-gu
-      - default-fonts-he
-      - default-fonts-hy
-      - default-fonts-ia
-      - default-fonts-iu
-      - default-fonts-ka
-      - default-fonts-km
-      - default-fonts-kn
-      - default-fonts-ku
-      - default-fonts-lo
-      - default-fonts-ml
-      - default-fonts-my
-      - default-fonts-nb
-      - default-fonts-ne
-      - default-fonts-nn
-      - default-fonts-nr
-      - default-fonts-nso
-      - default-fonts-or
-      - default-fonts-other-sans
-      - default-fonts-other-serif
-      - default-fonts-pa
-      - default-fonts-ru
-      - default-fonts-sat
-      - default-fonts-si
-      - default-fonts-ss
-      - default-fonts-ta
-      - default-fonts-te
-      - default-fonts-th
-      - default-fonts-tn
-      - default-fonts-ts
-      - default-fonts-uk
-      - default-fonts-ur
-      - default-fonts-ve
-      - default-fonts-vi
-      - default-fonts-xh
-      - default-fonts-yi
-      - default-fonts-zu
-      - google-noto-sans-arabic-vf-fonts
-      - google-noto-sans-armenian-vf-fonts
-      - google-noto-sans-balinese-fonts
-      - google-noto-sans-bengali-vf-fonts
-      - google-noto-sans-canadian-aboriginal-vf-fonts
-      - google-noto-sans-cherokee-vf-fonts
       - google-noto-sans-cjk-fonts
-      - google-noto-sans-devanagari-vf-fonts
-      - google-noto-sans-ethiopic-vf-fonts
-      - google-noto-sans-georgian-vf-fonts
-      - google-noto-sans-gujarati-vf-fonts
-      - google-noto-sans-gurmukhi-vf-fonts
-      - google-noto-sans-hebrew-vf-fonts
-      - google-noto-sans-javanese-fonts
-      - google-noto-sans-kannada-vf-fonts
-      - google-noto-sans-khmer-vf-fonts
-      - google-noto-sans-lao-vf-fonts
-      - google-noto-sans-meeteimayek-vf-fonts
-      - google-noto-sans-ol-chiki-vf-fonts
-      - google-noto-sans-oriya-vf-fonts
-      - google-noto-sans-sinhala-vf-fonts
-      - google-noto-sans-sundanese-fonts
-      - google-noto-sans-tamil-vf-fonts
-      - google-noto-sans-telugu-vf-fonts
-      - google-noto-sans-thaana-vf-fonts
-      - google-noto-sans-thai-vf-fonts
-      - jomolhari-fonts
-      - madan-fonts
-      - paktype-naskh-basic-fonts
-      - rit-meera-new-fonts
-      - rit-rachana-fonts
-      - sil-padauk-fonts
-      - sil-mingzat-fonts
-      - sil-nuosu-fonts
-      - vazirmatn-vf-fonts
+      - mint-x-icons
+      - mint-y-icons
+      - nvtop
+      - xfce4-appfinder
+      - xfce4-dict
+      - xfce4-dict-plugin
+      - xfce4-sensors-plugin
+      - xfce4-terminal
+      - atril
+      - galculator  
+      - libmousepad0
+      - mousepad
+      - ristretto
+      - xfce4-taskmanager
+      - xfdashboard
+      - xfdashboard-themes
 
     
   - type: default-flatpaks
