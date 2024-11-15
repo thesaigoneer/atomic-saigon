@@ -147,8 +147,6 @@ modules:
       - rit-meera-new-fonts
       - rit-rachana-fonts
       - sil-padauk-fonts
-      - tigervnc-server-minimal
-      - tigervnc-license
       - vazirmatn-vf-fonts
    
   - type: default-flatpaks
