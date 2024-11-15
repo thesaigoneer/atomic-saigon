@@ -1,11 +1,12 @@
 # image will be published to ghcr.io/<user>/<name>
 name: atomic-saigon
 # description will be included in the image's metadata
-description: the saigoneer's cosmic bluebuild spin
+description: the saigoneer's hypr-nwg-saigon spin
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/vauxite-main
-image-version: 40 # latest is also supported if you want new updates ASAP
+image-version: latest # latest is also supported if you want new updates ASAP
+
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
@@ -14,7 +15,8 @@ modules:
       - usr: /usr # copies config/files/usr into your image's /usr.
                   # put configuration files you want in /etc/ on a booted system 
                   # in /usr/etc/ in the image. read more in files module reference.
-   - type: rpm-ostree
+
+  - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/tofik/nwg-shell/repo/fedora-41/tofik-nwg-shell-fedora-41.repo
     install:
@@ -51,8 +53,7 @@ modules:
       - xfce4-taskmanager
       - xfdashboard
       - xfdashboard-themes
-
-    
+   
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
@@ -61,7 +62,8 @@ modules:
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
-        # - io.github.zen_browser.zen
+        # - org.mozilla.firefox
+        # - com.mattjakeman.ExtensionManager
         # - org.gnome.Loupe
         # - one.ablaze.floorp
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
