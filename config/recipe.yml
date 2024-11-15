@@ -24,8 +24,11 @@ modules:
       - xdg-desktop-portal-gtk
       - fastfetch
       - fuse
+      - mc
+      - micro
       - nwg-shell
       - pamixer
+      - rofi
       - xfce-polkit
       - zsh
       - zsh-autosuggestions
