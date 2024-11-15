@@ -36,9 +36,9 @@ modules:
     remove:
       - firefox
       - firefox-langpacks
-      - google-noto-sans-cjk-fonts
       - mint-x-icons
       - mint-y-icons
+      - mint-y-theme
       - nvtop
       - xfce4-appfinder
       - xfce4-dict
@@ -46,6 +46,7 @@ modules:
       - xfce4-sensors-plugin
       - xfce4-terminal
       - atril
+      - atril-libs
       - galculator  
       - libmousepad0
       - mousepad
