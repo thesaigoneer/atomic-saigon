@@ -31,7 +31,6 @@ modules:
       - wlogout
       - xdg-desktop-portal-hyprland
       - xdg-desktop-portal-gtk
-      - xfce-polkit
       - zsh
       - zsh-autosuggestions
       - zsh-html
@@ -57,6 +56,7 @@ modules:
       - xfce4-taskmanager
       - xfdashboard
       - xfdashboard-themes
+      - xfwm4-themes
    
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
