@@ -28,6 +28,7 @@ modules:
       - nwg-shell
       - pamixer
       - rofi
+      - xfce-polkit
       - wlogout
       - xdg-desktop-portal-hyprland
       - xdg-desktop-portal-gtk
