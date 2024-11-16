@@ -1,6 +1,6 @@
 # atomic-saigon &nbsp; [![build-ublue](https://github.com/blue-build/template/actions/workflows/build.yml/badge.svg)](https://github.com/blue-build/template/actions/workflows/build.yml)
 
-This is the setup of my customized ublue images, using the BlueBuild toolkit, based on Fedora 40.
+This is the setup of my customized ublue images, using the BlueBuild toolkit, based on Fedora 40 and 41.
 For more information i refer to their website at https://universal-blue.org/. You can find a large number of other specific images there as well.
 A specific part of their toolkit is the Tinkerers Guide to building your own images. That has now been spun-off to BlueBuild at https://blue-build.org/. 
 
