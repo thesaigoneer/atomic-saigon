@@ -32,7 +32,7 @@ With regards to flatpaks: I suggest to use the verified versions. That 'proves' 
       What has been added:            What has been removed:          
       - hyprland                       - firefox
       - nwg-shell                      - nvtop
-      - fastfetch                      - various fonts and themes        
+      - eza, fastfetch                 - various fonts and themes        
       - mc, micro, rofi
       - zsh (incl. completions)       
                                       
