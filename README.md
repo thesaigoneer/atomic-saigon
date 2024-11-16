@@ -4,8 +4,6 @@ This is the setup of my customized ublue images, using the BlueBuild toolkit, ba
 For more information i refer to their website at https://universal-blue.org/. You can find a large number of other specific images there as well.
 A specific part of their toolkit is the Tinkerers Guide to building your own images. That has now been spun-off to BlueBuild at https://blue-build.org/. 
 
-It's a work in progress, but as they mention it is 'the easiest way to build your own desktop Linux images'.
-
 ## Current image
 
 Since it is so easy to rebase I will be making some recipe's per DE. In the config directory of this repo you will find additional yaml files, that i rename to recipe.yml and then rebase to. You can look through them for my specific adaptations.
@@ -13,7 +11,7 @@ N.B ! If you rebase to my image (without cloning) you will currently find yourse
 
 - 15th of November 2024: nwg-shell on hyprland
 
-Many thanks to https://github.com/kuba3351 for enabling all this on Copr and of course to https://github.com/nwg-piotr, the maker of nwg-shell. Read more here: https://github.com/nwg-piotr/nwg-shell/wiki
+Many thanks to Kuba (https://github.com/kuba3351) for enabling all this on Copr and of course to Piotr (https://github.com/nwg-piotr), the maker of nwg-shell. Read more about it here: https://github.com/nwg-piotr/nwg-shell/wiki
   
 ## Idea
 
@@ -23,11 +21,8 @@ These images will deliver an atomic desktop, with all Ublue tooling and tweaks i
 ## What's in & What's out
 
 All tooling added by the Ublue project remains pristine. Suffice to say I don't run the DX (developers) or Nvidia images here; it is the 'standard' version of their and Fedora's images that I'm adjusting here.
-
-This means software like distrobox, fzf, firewalld, vim and htop has already been included in the base image. I have only included fastfetch and zsh ootb and removed a ton of fonts and Firefox (which surprisingly enough is installed from the repo's).
+This means software like distrobox, fzf, firewalld, vim and htop has already been included in the base image.
 All other required/desired software can be installed through flatpak and/or distrobox. In this Ucore based image Homebrew is not installed.
-With regards to flatpaks: I suggest to use the verified versions. That 'proves' the application you are installing has been provided by the official publisher. More and more applications are reaching that status.
-
 
       What has been added:            What has been removed:          
       - hyprland                       - firefox
