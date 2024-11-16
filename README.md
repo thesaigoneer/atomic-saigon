@@ -40,7 +40,9 @@ With regards to flatpaks: I suggest to use the verified versions. That 'proves' 
                                     
 ## How do you get it?
 
-Start with any Fedora Atomic image and install it. Then follow these instructions:
+Start with any Fedora Atomic image (I prefer Atomic Sway/Sericea) and install it. 
+Then follow these instructions:
+
 Rebase to the unsigned variant of the base image by running the following commands:
 
       rpm-ostree rebase ostree-unverified-registry:ghcr.io/thesaigoneer/atomic-saigon:latest
