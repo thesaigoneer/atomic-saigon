@@ -19,15 +19,26 @@ modules:
     repos:
       - https://copr.fedorainfracloud.org/coprs/tofik/nwg-shell/repo/fedora-41/tofik-nwg-shell-fedora-41.repo
     install:
+      - dbus-tools
+      - dbus-daemon
       - eza
       - fastfetch
+      - flatpak-session-helper
       - fuse
       - hyprland
+      - hyprland-devel
       - mc
       - micro
       - nwg-shell
       - pamixer
+      - pavucontrol
+      - polkit
+      - qt5-qtwayland
+      - qt6-qtwayland
+      - wl-clipboard
+      - xdg-desktop-portal
       - xdg-desktop-portal-hyprland
+      - xorg-x11-server-Xwayland
       - zsh
       - zsh-autosuggestions
       - zsh-html
