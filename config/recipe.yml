@@ -3,7 +3,7 @@ name: atomic-saigon
 description: the saigoneer's hypr-nwg-saigon spin
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/sericea-main
+base-image: ghcr.io/ublue-os/vauxite-main
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -23,6 +23,7 @@ modules:
       - dbus-daemon
       - eza
       - fastfetch
+      - flatpak
       - flatpak-session-helper
       - fuse
       - hyprland
@@ -60,7 +61,7 @@ modules:
       install:
         # - com.brave.Browser
         # - com.mattjakeman.ExtensionManager
-       - io.github.zen_browser.zen
+        # - io.github.zen_browser.zen
         # - one.ablaze.floorp
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
       # only normal flatpak applications are (like Floorp Lightning web browser in this example).
